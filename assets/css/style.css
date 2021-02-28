@@ -1,3 +1,23 @@
+/***
+Table of Contents
+-GENERAL 
+-HEADER - company name and navigation menu
+-HERO
+-CONTENT - main blurbs and images
+-SIDEBAR - "benefit" graphics and descriptions
+-FOOTER
+
+Color Scheme
+-----------------------
+#d9dcd6 - very pale cool gray
+#2a607c - medium blue
+#0072bb - bright blue
+#2589bd - lighter bright blue
+-----------------------
+***/
+
+/* GENERAL */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,43 +28,6 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header menu ul {
-    list-style-type: none;
-}
-
-.header menu ul li {
-    display: inline;
-    margin-left: 25px;
-}
-
-.header li {
-    display: inline;
-    padding: 0 20px 0 20px;
-}
 
 a {
     color: #ffffff;
@@ -55,6 +38,48 @@ p {
     font-size: 16px;
 }
 
+/* HEADER */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header menu ul {
+    list-style-type: none;
+}
+
+header menu ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+/* HERO */
+/* image description for this image provided in "title" attribute of the containing div */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,15 +89,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* CONTENT */
 
 .content {
     width: 75%;
@@ -97,6 +114,18 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* SIDEBAR */
 
 .sidebar {
     margin-right: 20px;
@@ -124,6 +153,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* FOOTER */
 
 .footer {
     padding: 30px;
